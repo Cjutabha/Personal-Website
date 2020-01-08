@@ -15,6 +15,39 @@
         <link rel="stylesheet" href="open-iconic/css/open-iconic.css">
 
         <style>
+            #md-frame1 {
+                display: none;
+            }
+            #md-frame2 {
+                display: none;
+            }
+             /* Tablets & smaller - Screen sizes ≤ 991px*/
+            @media (max-width: 991px) {
+                /* CSS seen by devices ≤ 991 px*/
+                body {
+                    background-color: pink;
+                }
+                #lg-frame1 {
+                    display: none;
+                }
+                #md-frame1 {
+                    display: block;
+                }
+                #lg-frame2 {
+                    display: none;
+                }
+                #md-frame2 {
+                    display: block;
+                }
+            }
+
+            /* Mobile & smaller - Screen sizes ≤ 767px*/
+            @media (max-width: 767px) {
+                /* CSS seen by devices ≤ 767 px*/
+                body {
+                    background-color: lightgreen;
+                }  
+            }
         </style>
 
     </head>
@@ -78,7 +111,10 @@
               </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="embed-responsive embed-responsive-21by9" id="frame">
+                    <div class="embed-responsive embed-responsive-21by9" id="lg-frame1">
+                        <iframe class="embed-responsive-item" src="https://www.pathmatch.com/"></iframe>
+                    </div>
+                    <div class="embed-responsive embed-responsive-4by3" id="md-frame1">
                         <iframe class="embed-responsive-item" src="https://www.pathmatch.com/"></iframe>
                     </div>
                 </div>
@@ -97,7 +133,10 @@
               </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="embed-responsive embed-responsive-21by9" id="frame">
+                    <div class="embed-responsive embed-responsive-21by9" id="lg-frame2">
+                        <iframe class="embed-responsive-item" src="https://cjutabha.github.io/Lizzy-Photo-Website/home.html"></iframe>
+                    </div>
+                    <div class="embed-responsive embed-responsive-4by3" id="md-frame2">
                         <iframe class="embed-responsive-item" src="https://cjutabha.github.io/Lizzy-Photo-Website/home.html"></iframe>
                     </div>
                 </div>
