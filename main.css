@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("font/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: "Lato";
+    src: url("font/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("font/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "Muli";
+    src: url("font/Muli-Regular.ttf");
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafaff;
+    color: #30343f;
+}
+h1 {
+    color: #2d5dce;
+    margin-bottom: 20px;
+}
+h2{
+    color: #6E44FF;
+}
+.container {
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 10px;
+}
+.navbar {
+    margin: 10px 0px 50px 20px;
+    position: relative;
+}
+.navbar-brand {
+    margin-top: -4px;
+}
+p {
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+#footer {
+    margin-top: 50px;
+    color: #2d5dce;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafaff;
+}
+strong {
+    color: #6E44FF;
+}
+#linkedin {
+    height: 40px;
+    position: absolute;
+    right: 10px;
+}
+#gmail {
+    height: 40px;
+    position: absolute;
+    right: 60px;
+}
+a.contact {
+    text-decoration: none;
+    display: inline-block;
+    color: #6E44FF;
+}
+a:hover.contact{
+    color: #B892FF;
+}
+a.project {
+    text-decoration: none;
+    display: inline-block;
+    color: #2d5dce;
+    padding: 12px;
+    border-radius: 25px;
+    border: 2px solid #2d5dce;
+    transition: 0.5s;
+    margin-right: 5px;
+}
+a:hover.project{
+    background-color:#2d5dce; 
+    color: #fafaff;
+}
