@@ -16,15 +16,18 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fafaff;
+    background-color: #81B29A;
     color: #30343f;
 }
 h1 {
-    color: #2d5dce;
+    color: #3D405B;
     margin-bottom: 20px;
 }
 h2{
-    color: #6E44FF;
+    color: #E07A5F;
+}
+h3{
+    font-size: 1em;
 }
 .container {
     font-family: 'Muli', sans-serif;
@@ -43,13 +46,13 @@ p {
 }
 #footer {
     margin-top: 50px;
-    color: #2d5dce;
+    color: #3D405B;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    background-color: #fafaff;
+    background-color: #81B29A;
 }
 strong {
-    color: #6E44FF;
+    color: #E07A5F;
 }
 #linkedin {
     height: 40px;
@@ -64,22 +67,36 @@ strong {
 a.contact {
     text-decoration: none;
     display: inline-block;
-    color: #6E44FF;
+    color: #E07A5F;
 }
 a:hover.contact{
-    color: #B892FF;
+    color: #5A5E87;
 }
 a.project {
     text-decoration: none;
     display: inline-block;
-    color: #2d5dce;
+    color: #3D405B;
     padding: 12px;
     border-radius: 25px;
-    border: 2px solid #2d5dce;
+    border: 2px solid #3D405B;
     transition: 0.5s;
     margin-right: 5px;
 }
 a:hover.project{
-    background-color:#2d5dce; 
-    color: #fafaff;
+    background-color:#3D405B; 
+    color: #81B29A;
+}
+.justify {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    float: left;
+    width: 45px;
+    margin-right: 5px;
+}
+.container {
+    background-color: #FAF9F0;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
