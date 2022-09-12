@@ -72,8 +72,11 @@ strong {
     border-radius: 10px;
 }
 a {
-    color: #DB6443;
+    color: #626793;
 }
 a:hover {
     color: #E07A5F;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
 }
