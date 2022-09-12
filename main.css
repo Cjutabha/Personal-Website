@@ -22,7 +22,7 @@ body {
 h1 {
     color: #3D405B;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 h2{
     color: #E07A5F;
@@ -34,16 +34,6 @@ h3{
     font-family: 'Muli', sans-serif;
     margin-bottom: 10px;
 }
-/* nav{
-    background-color: #81B29A;
-}
-.navbar {
-    margin: 10px 0px 50px 20px;
-    position: relative;
-}
-.navbar-brand {
-    margin-top: -4px;
-} */
 p {
     font-size: 1.1em;
     margin-top: 15px;
@@ -82,7 +72,7 @@ strong {
     border-radius: 10px;
 }
 a {
-    color: #3D405B;
+    color: #DB6443;
 }
 a:hover {
     color: #E07A5F;
