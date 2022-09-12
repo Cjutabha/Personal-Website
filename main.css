@@ -50,13 +50,9 @@ strong {
 }
 #linkedin {
     height: 40px;
-    position: absolute;
-    right: 10px;
 }
 #gmail {
     height: 40px;
-    position: absolute;
-    right: 60px;
 }
 .justify {
     display: flex;
