@@ -17,11 +17,6 @@
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <script>
-            $(function(){
-                $("#nav-placeholder").load("nav.html");
-            });
-        </script>
 
         <style>
         </style>
@@ -30,6 +25,8 @@
     <body>
         <!--Navigation bar-->
         <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("nav.html");});</script>
+        <!--end of Navigation bar-->
         
         <div class="container">
             <div class="row">
