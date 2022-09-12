@@ -34,13 +34,16 @@ h3{
     font-family: 'Muli', sans-serif;
     margin-bottom: 10px;
 }
+/* nav{
+    background-color: #81B29A;
+}
 .navbar {
     margin: 10px 0px 50px 20px;
     position: relative;
 }
 .navbar-brand {
     margin-top: -4px;
-}
+} */
 p {
     font-size: 1.1em;
     margin-top: 15px;
@@ -77,9 +80,6 @@ strong {
 .container {
     background-color: #FAF9F0;
     border-radius: 10px;
-}
-nav{
-    background-color: #81B29A;
 }
 a {
     color: #3D405B;
