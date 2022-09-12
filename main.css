@@ -97,6 +97,8 @@ a:hover.project{
 }
 .container {
     background-color: #FAF9F0;
-    margin-bottom: 10px;
     border-radius: 10px;
+}
+nav{
+    background-color: #81B29A;
 }
