@@ -102,3 +102,9 @@ a:hover.project{
 nav{
     background-color: #81B29A;
 }
+.nav-link {
+    color: #3D405B;
+}
+.nav-link:hover {
+    color: #E07A5F;
+}
